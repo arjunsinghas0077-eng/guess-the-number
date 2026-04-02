@@ -1,9 +1,9 @@
 import random
 
-number = random.randint(1, 10)
-guess = None
+number = random.randint(10, 100)
+guess = 77
 
-print("Guess the number between 1 and 10!")
+print("Guess the number between 10 and 100!")
 
 while guess != number:
     try:
